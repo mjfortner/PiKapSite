@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Observe elements for animation
     const animateElements = document.querySelectorAll(
-        '.value-card, .timeline-item, .member-card, .donate-card, .level-card, .alumni-card, .rush-value'
+        '.value-card, .timeline-item, .member-card, .donate-card, .level-card, .alumni-card'
     );
 
     animateElements.forEach(el => {
