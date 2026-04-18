@@ -940,6 +940,83 @@ img {
     color: var(--color-accent);
 }
 
+/* ========================================
+   News / Pillars Section
+   ======================================== */
+
+.news {
+    background: var(--color-gray-50);
+}
+
+.pillars-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.pillar-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--color-white);
+    border: 1px solid var(--color-gray-200);
+    border-radius: 8px;
+    padding: 18px 24px;
+    transition: box-shadow var(--transition-fast);
+}
+
+.pillar-card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.pillar-icon {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.pillar-info {
+    flex: 1;
+}
+
+.pillar-title {
+    font-family: var(--font-serif);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--color-gray-800);
+}
+
+.pillar-date {
+    font-size: 13px;
+    color: var(--color-gray-500);
+    margin-top: 2px;
+}
+
+.pillar-link {
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: none;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    padding: 6px 14px;
+    transition: background var(--transition-fast), color var(--transition-fast);
+}
+
+.pillar-link:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+}
+
+.pillars-empty {
+    text-align: center;
+    color: var(--color-gray-400);
+    margin-top: 24px;
+    font-size: 15px;
+}
+
 .pillars-section {
     text-align: center;
     padding: 40px;
